@@ -54,7 +54,23 @@ sleep) + payoff in the last words (still holding the box).
 - Repo: `makefun-pizza-topping`, git identity repo-local
   `rwnliwan <rwnliwan@gmail.com>`.
 
-## v1 — bundle / check (to be filled with real numbers)
+## v1 — bundle / check (real numbers, 26 Nov ~09:05 WITA)
 
-- Bundle v1: (pending)
-- Check v1: (pending)
+- Bundle v1: 185.194 bytes, sha256
+  `0f98b9882c670286efd650e5f89f3bc10a5880fb586de0cb46eafb42b69767fc`,
+  1 session (26 turns, 91 lines), prompt from prompt-9.txt. Warning: 0
+  usage rows attached — subagent session, rows flush only when the run
+  completes; coordinator re-bundles with usage rows from muse.db.
+- Check v1: 12 passed / 2 failed / 5 skipped / 5 at-submission.
+  FAILs: `thinking_priced` (0 usage rows — coordinator's re-bundle) and
+  `thinking_revised` (no file revised yet — fixed by THIS revision of
+  trial-log.md). `thinking_reproduces` 96,1% (75/78 authored lines,
+  main.ts 12 authored lines). Gate, license, entrypoint, snapshot all pass.
+- `gh repo create` first attempt hit the rolling rate limit
+  ("created too many repositories, too quickly") — retried after a wait.
+
+## v2 — revision (this edit) + re-bundle / re-check
+
+- trial-log.md revised with the real v1 bundle/check numbers above.
+- Bundle v2: (pending)
+- Check v2: (pending)
