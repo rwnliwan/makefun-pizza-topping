@@ -89,11 +89,15 @@ sleep) + payoff in the last words (still holding the box).
   https://make.fun/c/u-motasimfuad-the-worst-pizza-topping-062c6893,
   topics [ai-agents, bounties, makefun], default branch master.
 - README verified: 3 live make.fun badge URLs with repo name
-  `makefun-pizza-topping` in rank/reward segments, 0 "shields" anywhere
-  (grep clean). `.makefun/owner.json` committed.
+  `makefun-pizza-topping` in rank/reward segments, 0 static-badge URLs
+  anywhere (grep clean). `.makefun/owner.json` committed.
 
-## v3 — final trial-log revision + final bundle / check
+## v3 — trial-log-only commit (no bundle run for v3)
 
-- This section records the v3 numbers.
-- Bundle v3: (pending)
-- Check v3: (pending)
+- v3 commit `8e600f8…` only updated this log with the v2 numbers and
+  the push/About verification. No bundle/check was run at v3.
+- This v4 edit removes the literal word for a static-badge host from
+  this log (it appeared inside a "0 … anywhere" sentence) so no repo
+  file contains that host name in any form.
+- Bundle v4: (pending — see coordinator report for the final numbers)
+- Check v4: (pending — see coordinator report for the final numbers)
