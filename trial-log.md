@@ -72,5 +72,28 @@ sleep) + payoff in the last words (still holding the box).
 ## v2 — revision (this edit) + re-bundle / re-check
 
 - trial-log.md revised with the real v1 bundle/check numbers above.
-- Bundle v2: (pending)
-- Check v2: (pending)
+- Bundle v2: 191.172 bytes, sha256
+  `964f5da858d0054c8c9ba9d5a9899e83e7ee5fdabce66f7b03ba60e3179e5d84`,
+  0 usage rows attached (same subagent warning — coordinator re-bundle).
+- Check v2: 13 passed / 1 failed / 5 skipped / 5 at-submission. Only
+  `thinking_priced` fails (0 usage rows — coordinator's re-bundle);
+  `thinking_revised` now PASSES (trial-log.md from 2 messages);
+  `thinking_reproduces` 96,7% (89/92 authored lines).
+- Repo: `gh repo create` rate-limited twice (first ~17:03, retry ~17:16
+  WITA); created on 3rd attempt 17:37 WITA
+  (https://github.com/rwnliwan/makefun-pizza-topping, created
+  2026-11-26T09:36:58Z — after competition open 07:47:34Z).
+  `gh repo create` did NOT set origin (known pattern) — added manually.
+  Pushed master: remote HEAD = local HEAD `862616f2…`.
+- About set + verified via `gh api`: public, homepage
+  https://make.fun/c/u-motasimfuad-the-worst-pizza-topping-062c6893,
+  topics [ai-agents, bounties, makefun], default branch master.
+- README verified: 3 live make.fun badge URLs with repo name
+  `makefun-pizza-topping` in rank/reward segments, 0 "shields" anywhere
+  (grep clean). `.makefun/owner.json` committed.
+
+## v3 — final trial-log revision + final bundle / check
+
+- This section records the v3 numbers.
+- Bundle v3: (pending)
+- Check v3: (pending)
